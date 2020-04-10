@@ -1,0 +1,15 @@
+.contact-us {
+  display: flex;
+  flex-direction: row;
+}
+
+.icon-caption img {
+  width: 50px;
+  height: 50px;
+}
+
+.icon-caption {
+  display: flex;
+  flex-direction: row;
+  color: #FFF;
+}

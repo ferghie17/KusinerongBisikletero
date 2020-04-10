@@ -1,0 +1,168 @@
+.container {
+	display: flex;
+	flex-direction: column;
+}
+/***********************************************************************
+ *  Nav Bar
+ **********************************************************************/
+ .main-nav {
+ 	display: flex;
+ 	list-style: none;
+ 	margin: 0;
+ 	font-size:1.5em;
+ 	margin-right: 0;
+ }
+
+ .main-nav img {
+ 	width: 100px;
+ 	height: 100px;
+ 	margin: 0;
+ }
+
+ @media only screen and (max-width: 800px) {
+ 	.main-nav {
+ 		font-size: 1em;
+ 		padding: 0;
+ 	}
+ }
+
+
+ .main-nav li {
+ 	padding: 20px;
+ }
+
+ .main-nav-li a {
+ 	color: #f5f5f6;
+ 	text-decoration: none;
+ }
+
+ .main-nav-active {
+ 	background-color: #FFFF;
+ }
+
+ .main-nav-active a {
+ 	text-decoration: none;
+ 	color:  #B13228;
+ }
+
+ .main-nav li:hover,
+ .main-nav li:hover a {
+ 	background-color: #FFFF;
+ 	color:  #B13228;
+ }
+
+ .image-header {
+ 	display: grid;
+ 	align-items: center;
+ 	justify-content: center;
+ 	height: 87vh;
+ }
+ .image-header img{
+ 	height: 350px;
+ 	width: 350px;
+ }
+
+ .header {
+ 	display: grid;
+ 	align-items: center;
+ 	height: 88vh;
+ }
+
+ .header img {
+ 	height: 100%;
+ 	width: 100%;
+ 	min-width: 100%;
+ }
+ .content {
+ 	display: flex;
+ 	grid-gap: 20px;
+ 	grid-template-columns: repeat(auto-fill,minmax(350px,1fr));
+ }
+
+/***********************************************************************
+ *  Grid Panel
+ **********************************************************************/
+ .grid-wrapper {
+ 	display: grid;
+ 	grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+ 	grid-gap: 20px;
+ }
+
+ .box {
+ 	background-color: #444;
+ 	padding: 130px;
+ 	margin: 20px;
+ }
+
+ .box > img {
+ 	width: 100%;
+ }
+
+ .bg-red {
+ 	background-color: #B13228;
+ }
+ .bg-blue {
+ 	background-color: #37277A;
+ }
+ .bg-green {
+ 	background-color: #1F892C;
+ }
+ .bg-gray {
+ 	background-color: #708E9A;
+ }
+ .bg-black {
+ 	background-color: #000000;
+ }
+
+ body {
+ 	margin: 0 auto;
+ 	background-color: #000000;
+ }
+
+ .zone {
+ 	/*padding:30px 50px;*/
+ 	/*cursor:pointer;*/
+ 	color:#FFF;
+ 	font-size:2em;
+ 	border-radius:4px;
+ 	border:1px solid #bbb;
+ 	transition: all 0.3s linear;
+ }
+
+ footer {
+ 	text-align: center;
+ 	color: #f5f5f6;
+ 	position: fixed;
+ 	bottom: 0;
+ 	left: 0;
+ 	bottom: 0;
+ 	width: 100%;
+ 	margin-bottom: 1vh;
+ 	height: 5vh;
+ }
+
+ .push {
+ 	margin-left: auto;
+ }
+
+ .font-color-white {
+ 	color: #FFF;
+ }
+
+ .underconstruction img {
+ 	width: 100vh;
+ 	height: 50vh;
+ }
+
+ h1 {
+ 	color: #FFF;
+ }
+ .temporarytext p {
+ 	color: #FFF;
+ 	text-align: center;
+ 	font-size: 24px;
+ }
+
+ .temporarytext a {
+ 	color: #B13228;
+ }
